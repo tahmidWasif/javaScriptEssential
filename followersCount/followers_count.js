@@ -17,3 +17,8 @@ function checkCountValue() {
 function displayCount() {
     document.getElementById("countDisplay").innerHTML = count;
 }
+
+function resetCount() {
+    count = 0;
+    displayCount();
+}
